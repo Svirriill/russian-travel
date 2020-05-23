@@ -1,0 +1,26 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 3392px;
+    margin: 92px auto;
+    
+}
+
+@media screen and (max-width: 1025px) {
+    .places {
+        min-height: 3296px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .places {
+        min-height: 2802px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .places {
+        min-height: 4775px;
+    }
+}

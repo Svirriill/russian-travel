@@ -1,0 +1,21 @@
+.place__first-height {
+    min-height: 660px;
+}
+
+@media screen and (max-width: 1025px) {
+    .place__first-height {
+        min-height: 644px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .place__first-height {
+        min-height: 580px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .place__first-height {
+        min-height: 963px;
+    }
+}

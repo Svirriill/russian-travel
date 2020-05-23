@@ -1,0 +1,33 @@
+@import url(./__logo/header__logo.css);
+@import url(./__link-zone/header__link-zone.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_En/header__lang-link_En.css);
+
+.header {
+    font-family: "Inter";
+    max-width: 1184px;
+    display: flex;
+    padding: 28px 48px 56px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1025px) {
+    .header {
+        max-width: 928px;
+        padding: 28px 48px 48px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header {
+        max-width: 720px;;
+        padding: 28px 24px 48px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .header {
+        max-width: 288px;
+        padding: 16px 16px 48px;
+    }
+}

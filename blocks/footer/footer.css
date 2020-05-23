@@ -1,0 +1,56 @@
+@import url(./__link-zone/footer__link-zone.css);
+@import url(./__list-zone/footer__list-zone.css);
+@import url(./__list/footer__list.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+    font-family: "Inter";
+    max-width: 1184px;
+    min-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin: 92px 48px 0px;
+    padding: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+@media screen and (max-width: 1025px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer {
+        max-width: 720px;
+        margin: 88px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        max-width: 320px;
+        min-height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 64px auto 24px 16px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .footer {
+        max-width: 186px;
+        min-height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 64px auto 24px 16px;
+    }
+}

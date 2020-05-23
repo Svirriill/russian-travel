@@ -1,0 +1,21 @@
+.place__second-height {
+    min-height: 584px;
+}
+
+@media screen and (max-width: 1025px) {
+    .place__second-height {
+        min-height: 564px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .place__second-height {
+        min-height: 534px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .place__second-height {
+        min-height: 937px;
+    }
+}
