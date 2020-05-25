@@ -4,7 +4,7 @@
     padding-left: 0px;
 } 
  
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 645px) { 
     .footer__list-zone { 
         display: flex; 
         flex-direction: column; 
