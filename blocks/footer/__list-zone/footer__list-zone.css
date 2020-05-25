@@ -1,23 +1,14 @@
-.footer__list-zone {
-    display: flex;
-    list-style: none;
+.footer__list-zone { 
+    display: flex; 
+    list-style: none; 
     padding-left: 0px;
-}
-
-@media screen and (max-width: 600px) {
-    .footer__list-zone {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        margin: 0px;
-    }
-}
-
-@media screen and (max-width: 325px) {
-    .footer__list-zone {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        margin: 0px;
-    }
-}
+} 
+ 
+@media screen and (max-width: 600px) { 
+    .footer__list-zone { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: start; 
+        margin: 0px; 
+    } 
+} 

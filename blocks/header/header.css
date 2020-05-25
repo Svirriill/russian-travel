@@ -1,10 +1,10 @@
 @import url(./__logo/header__logo.css);
 @import url(./__link-zone/header__link-zone.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/_En/header__lang-link_En.css);
+@import url(./__lang-link/_ru/header__lang-link_ru.css);
 
 .header {
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     max-width: 1184px;
     display: flex;
     padding: 28px 48px 56px;

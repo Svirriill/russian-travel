@@ -3,19 +3,7 @@
     max-width: 456px;
 }
 
-@media screen and (max-width: 770px) {
-    .place__website {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .place__website {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 500px) {
     .place__website {
         display: none;
     }
